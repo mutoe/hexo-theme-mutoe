@@ -1,0 +1,30 @@
+// ------------
+// mixins
+// ------------
+
+transform()
+  -webkit-transform arguments
+  transform arguments
+
+transition()
+  -webkit-transition arguments
+  transition arguments
+
+// 隐藏元素翻转后的背面
+backface-visibility()
+  -webkit-backface-visibility arguments
+  backface-visibility arguments
+
+appearance()
+  appearance arguments
+  -moz-appearance arguments
+  -webkit-appearance arguments
+
+display(arg)
+  if arg == 'inline-flex'
+    display -webkit-inline-box
+    display -webkit-inline-flex
+    display -ms-inline-flexbox
+    display inline-flex
+  else
+    display arguments

@@ -1,0 +1,28 @@
+
+# html lang
+language: zh-Hans
+
+# main menu navigation
+menu:
+  home: /
+  categories: /categories
+  #about: /about
+  tags: /tags
+  archives: /archives
+  #sitemap: /sitemap.xml
+  #commonweal: /404.html
+
+# Miscelaneous
+favicon: /favicon.ico
+
+coffee:
+  header: false
+  bare: false
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/main.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/mutoe.js
